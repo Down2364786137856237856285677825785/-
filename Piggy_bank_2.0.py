@@ -1,8 +1,11 @@
 import json
+import os
 from time import sleep
 
 
-file_path_json = r"C:\Users\tolia\OneDrive\Python scripts\Копилка 2.0\piggy_data.json"
+download_folger = os.path.join(os.path.expanduser("~"), "Downloads")
+
+file_path_json = os.path.join(download_folger, 'piggy_data.json')
 
 # Дефолтные данные для JSON файла при создании
 basic_data_json = {
