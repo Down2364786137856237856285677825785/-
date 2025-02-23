@@ -326,7 +326,5 @@ def main():
 
 
 Piggy = Piggy_bank()
-
-Piggy.opening_files()
 Piggy.data_check()
 main()
